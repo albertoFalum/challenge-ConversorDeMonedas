@@ -32,8 +32,7 @@ public class Principal {
 
             try {
                 System.out.println("Seleccione una opcion válida: ");
-                opcion = lectura.nextInt();
-                lectura.nextLine();
+                opcion= Integer.parseInt(lectura.nextLine());
 
                 if (opcion < 1 || opcion > 13) {
                     throw new InputMismatchException();
@@ -105,6 +104,7 @@ public class Principal {
                                 to = Codigo.USD;
                                 break;
                             default:
+
                                 return;
 
                         }
@@ -125,9 +125,9 @@ public class Principal {
                 }
 
 
-            } catch (InputMismatchException e) {
+            } catch (NumberFormatException e) {
                 System.out.println("\nError, ingrese una opcion válida. - \n");
-                opcion = -1;
+                opcion=-1;
             }
 
         } while (opcion != 13);
