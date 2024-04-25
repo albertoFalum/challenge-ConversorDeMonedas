@@ -1,4 +1,4 @@
-public enum Codigo {
+public enum CodigoMoneda {
         ARS,   //Peso Argentino
         BRL,   //Real brasileño
         BOB,   //Boliviano

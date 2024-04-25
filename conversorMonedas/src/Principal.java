@@ -53,55 +53,55 @@ public class Principal {
                             throw new NumberFormatException();
                         }
 
-                        Codigo from, to;
+                        CodigoMoneda from, to;
                         switch (opcion) {
                             case 1:
-                                from = Codigo.USD;
-                                to = Codigo.ARS;
+                                from = CodigoMoneda.USD;
+                                to = CodigoMoneda.ARS;
                                 break;
                             case 2:
-                                from = Codigo.ARS;
-                                to = Codigo.USD;
+                                from = CodigoMoneda.ARS;
+                                to = CodigoMoneda.USD;
                                 break;
                             case 3:
-                                from = Codigo.EUR;
-                                to = Codigo.ARS;
+                                from = CodigoMoneda.EUR;
+                                to = CodigoMoneda.ARS;
                                 break;
                             case 4:
-                                from = Codigo.ARS;
-                                to = Codigo.EUR;
+                                from = CodigoMoneda.ARS;
+                                to = CodigoMoneda.EUR;
                                 break;
                             case 5:
-                                from = Codigo.USD;
-                                to = Codigo.BRL;
+                                from = CodigoMoneda.USD;
+                                to = CodigoMoneda.BRL;
                                 break;
                             case 6:
-                                from = Codigo.BRL;
-                                to = Codigo.USD;
+                                from = CodigoMoneda.BRL;
+                                to = CodigoMoneda.USD;
                                 break;
                             case 7:
-                                from = Codigo.USD;
-                                to = Codigo.BOB;
+                                from = CodigoMoneda.USD;
+                                to = CodigoMoneda.BOB;
                                 break;
                             case 8:
-                                from = Codigo.BOB;
-                                to = Codigo.USD;
+                                from = CodigoMoneda.BOB;
+                                to = CodigoMoneda.USD;
                                 break;
                             case 9:
-                                from = Codigo.USD;
-                                to = Codigo.COP;
+                                from = CodigoMoneda.USD;
+                                to = CodigoMoneda.COP;
                                 break;
                             case 10:
-                                from = Codigo.COP;
-                                to = Codigo.USD;
+                                from = CodigoMoneda.COP;
+                                to = CodigoMoneda.USD;
                                 break;
                             case 11:
-                                from = Codigo.USD;
-                                to = Codigo.EUR;
+                                from = CodigoMoneda.USD;
+                                to = CodigoMoneda.EUR;
                                 break;
                             case 12:
-                                from = Codigo.EUR;
-                                to = Codigo.USD;
+                                from = CodigoMoneda.EUR;
+                                to = CodigoMoneda.USD;
                                 break;
                             default:
 

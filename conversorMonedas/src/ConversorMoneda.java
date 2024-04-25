@@ -10,7 +10,7 @@ import java.util.Map;
 public class ConversorMoneda {
     private final String key = "b64132615da554529eac9f75";
 
-    public double convertir(Codigo from, Codigo to, double valor){
+    public double convertir(CodigoMoneda from, CodigoMoneda to, double valor){
         String convertirDe = from.name();
         String covertirA = to.name();
         double resultado;

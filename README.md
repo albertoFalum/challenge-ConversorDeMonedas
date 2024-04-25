@@ -1,6 +1,6 @@
 # Conversor de Monedas V 1.0 by Alberto Alum
 
-Este es un programa simple en Java que permite convertir entre diferentes monedas utilizando la API de ExchangeRate-API. El programa solicita al usuario seleccionar las monedas de origen y destino, así como ingresar el monto a convertir. Luego, realiza la conversión y muestra el resultado.
+Este es un programa simple en Java propuesto en el Challenge Back End ONE de Alura Latam, que permite convertir entre diferentes monedas utilizando la API de ExchangeRate-API. El programa solicita al usuario seleccionar las monedas de origen y destino, así como ingresar el monto a convertir. Luego, realiza la conversión y muestra el resultado.
 
 ## Uso
 
