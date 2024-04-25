@@ -1,29 +1,39 @@
-Conversor de Monedas
+# Conversor de Monedas V 1.0 by Alberto Alum
+
 Este es un programa simple en Java que permite convertir entre diferentes monedas utilizando la API de ExchangeRate-API. El programa solicita al usuario seleccionar las monedas de origen y destino, así como ingresar el monto a convertir. Luego, realiza la conversión y muestra el resultado.
 
-Uso
-Ejecute el programa.
-Seleccione las monedas de origen y destino.
-Ingrese el monto a convertir.
-El programa mostrará el resultado de la conversión.
-Opciones de Conversión
-Dólar => Peso argentino
-Peso argentino => Dólar
-Euro => Peso argentino
-Peso argentino => Euro
-Dólar => Real brasileño
-Real brasileño => Dólar
-Dólar => Boliviano
-Boliviano => Dólar
-Dólar => Peso colombiano
-Peso colombiano => Dólar
-Dólar => Euro
-Euro => Dólar
-Salir
-Notas
-El programa utiliza la API de ExchangeRate-API para obtener las tasas de cambio en tiempo real.
-Se incluyen clases para manejar las conversiones y las respuestas de la API.
-El código está estructurado de manera simple y modular para facilitar su mantenimiento y extensión.
-Requisitos
-Java 11 o superior.
-Conexión a Internet para obtener las tasas de cambio de la API.
+## Uso
+
+1. Ejecute el programa.
+2. Seleccione las monedas de origen y destino.
+3. Ingrese el monto a convertir.
+4. El programa mostrará el resultado de la conversión.
+
+## Opciones de Conversión
+
+1. Dólar => Peso argentino
+2. Peso argentino => Dólar
+3. Euro => Peso argentino
+4. Peso argentino => Euro
+5. Dólar => Real brasileño
+6. Real brasileño => Dólar
+7. Dólar => Boliviano
+8. Boliviano => Dólar
+9. Dólar => Peso colombiano
+10. Peso colombiano => Dólar
+11. Dólar => Euro
+12. Euro => Dólar
+13. Salir
+
+## Notas
+
+- El programa utiliza la API de ExchangeRate-API para obtener las tasas de cambio en tiempo real.
+- Se incluyen clases para manejar las conversiones y las respuestas de la API.
+
+## Requisitos
+
+- Java 11 o superior.
+- Conexión a Internet para obtener las tasas de cambio de la API.
+
+
+
